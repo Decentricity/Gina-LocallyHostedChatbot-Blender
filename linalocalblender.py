@@ -75,7 +75,7 @@ tokenizer = BlenderbotTokenizer.from_pretrained("facebook/blenderbot-400M-distil
 model = BlenderbotForConditionalGeneration.from_pretrained("facebook/blenderbot-400M-distill")
 
 # Set your Telegram Bot Token
-TELEGRAM_API_TOKEN = "894870764:AAGfYXgAFwA9JJTDZ4B0PdRcD2OFKiHQMIk"
+TELEGRAM_API_TOKEN = "----"
 
 def generate_text(prompt, model, tokenizer):
     input_ids = tokenizer.encode(prompt, return_tensors="pt", truncation=True)
