@@ -1,6 +1,5 @@
 import os
 import torch
-import speech_recognition as sr
 from gtts import gTTS
 from transformers import BlenderbotTokenizer, BlenderbotForConditionalGeneration
 from telegram import Update
