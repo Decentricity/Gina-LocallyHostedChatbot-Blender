@@ -43,7 +43,7 @@ python main.py
 
 2. Find your chatbot on Telegram by searching for its username.
 
-3. Start a conversation with your chatbot by sending a message or a voice note.
+3. Start a conversation with your chatbot by sending a message ~~or a voice note.~~ (Voice recog doesn't work yet, trying to fix. don't send Gina voicenotes yet)
 
 4. Gina will reply with a voice message.
 
