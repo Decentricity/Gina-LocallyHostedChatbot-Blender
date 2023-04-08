@@ -12,7 +12,7 @@ Gina (previously named Lina) is a locally hosted chatbot based on the BlenderBot
 
 ## Features
 - Text and voice input/output
-- URL scraping and content summarization
+- URL scraping and content understanding (this model is too small to provide proper understanding but she would be able to talk in context)
 - Built using the Blenderbot model from Facebook
 - Fully self-hosted after that model is downloaded
 - Runs on the Telegram platform
