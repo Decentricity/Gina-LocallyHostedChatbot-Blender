@@ -1,7 +1,7 @@
 # Gina - Locally Hosted Chatbot with the Blender 400M pretrained model
 ## - by decentricity
 
-Gina (previously named Lina) is a locally hosted chatbot based on the BlenderBot Distill model from Facebook / HuggingFace. The chatbot utilizes the Telegram API to communicate with users and supports both text and voice input. Additionally, Gina can scrape website content if a URL is provided in the user's message.
+Gina (previously named Lina) is a locally hosted chatbot based on the BlenderBot Distill model from Facebook / HuggingFace. The chatbot utilizes the Telegram API to communicate with users and supports both text and voice output. Additionally, Gina can scrape website content if a URL is provided in the user's message.
 
 ## Table of Contents
 - [Features](#features)
