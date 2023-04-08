@@ -25,6 +25,7 @@ Gina (previously named Lina) is a locally hosted chatbot based on the BlenderBot
 1. Clone the repository:
 ```
 git clone https://github.com/Decentricity/Gina-LocallyHostedChatbot-Blender.git
+cd Gina-LocallyHostedChatbot-Blender
 ```
 2. Install required packages using pip:
 ```
