@@ -18,7 +18,8 @@ Lina is a locally hosted chatbot based on the BlenderBot Distill model from Face
 ## Requirements
 - Python 3.6 or later
 - Packages: `torch`, `speech_recognition`, `gtts`, `transformers`, `telegram`, `pydub`, `beautifulsoup4`, `requests`, and `re`
-⚠️ **Warning:** The `facebook/blenderbot-400M-distill` model has the following hardware requirements:
+
+### ⚠️ **Warning:** The `facebook/blenderbot-400M-distill` model has the following hardware requirements:
 
 - A GPU with at least 16 GB of VRAM (e.g., NVIDIA Tesla V100 or equivalent)
 - A modern, high-performance CPU and sufficient system RAM to handle moderate model sizes
