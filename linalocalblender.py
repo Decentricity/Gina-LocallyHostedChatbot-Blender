@@ -150,20 +150,7 @@ def text_message(update: Update, context: CallbackContext):
 def error(update: Update, context: CallbackContext):
     print(f"Update {update} caused error {context.error}")
 
-def main():
-    updater = Updater(TELEGRAM_API_TOKEN, use_context=True)
 
-    dp = updater.dispatcher
-    dp.add_handler(CommandHandler("start", start))
-    dp.add_handler(MessageHandler(Filters.text, text_message))
-    dp.add_handler(MessageHandler(Filters.voice, voice_message))
-    dp.add_error_handler(error)
-
-    updater.start_polling()
-    updater.idle()
-
-if __name__ == "__main__":
-    main()
     
 def text_message(update: Update, context: CallbackContext):
     user_input = update.message.text
@@ -182,3 +169,19 @@ def text_message(update: Update, context: CallbackContext):
                 audio,
                 reply_to_message_id=update.message.reply_to_message.message_id if update.message.reply_to_message else None
             )
+            
+            
+def main():
+    updater = Updater(TELEGRAM_API_TOKEN, use_context=True)
+
+    dp = updater.dispatcher
+    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(MessageHandler(Filters.text, text_message))
+    dp.add_handler(MessageHandler(Filters.voice, voice_message))
+    dp.add_error_handler(error)
+
+    updater.start_polling()
+    updater.idle()
+
+if __name__ == "__main__":
+    main()
