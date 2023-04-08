@@ -1,7 +1,7 @@
 torch
 gtts
 transformers
-python-telegram-bot
+python-telegram-bot==13.7
 pydub
 beautifulsoup4
 requests
