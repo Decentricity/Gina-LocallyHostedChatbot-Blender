@@ -19,7 +19,7 @@ Gina (previously named Lina) is a locally hosted chatbot based on the BlenderBot
 
 ## Requirements
 - Python 3.6 or later
-- Packages: `torch`, `speech_recognition`, `gtts`, `transformers`, `telegram`, `pydub`, `beautifulsoup4`, `requests`, and `re`
+- Packages: `torch`, ~~`speech_recognition`,~~ `gtts`, `transformers`, `telegram`, `pydub`, `beautifulsoup4`, `requests`, and `re`
 
 ## Installation
 1. Clone the repository:
