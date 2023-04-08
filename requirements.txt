@@ -1,0 +1,8 @@
+torch
+speech_recognition
+gtts
+transformers
+python-telegram-bot
+pydub
+beautifulsoup4
+requests
