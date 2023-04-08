@@ -1,6 +1,6 @@
 # Gina - Locally Hosted Chatbot Blender - by decentricity
 
-Gina (previously named Lina, hence the name of the repo) is a locally hosted chatbot based on the BlenderBot Distill model from Facebook / HuggingFace. The chatbot utilizes the Telegram API to communicate with users and supports both text and voice input/output. Additionally, Lina can scrape website content if a URL is provided in the user's message.
+Gina (previously named Lina) is a locally hosted chatbot based on the BlenderBot Distill model from Facebook / HuggingFace. The chatbot utilizes the Telegram API to communicate with users and supports both text and voice input/output. Additionally, Lina can scrape website content if a URL is provided in the user's message.
 
 ## Table of Contents
 - [Features](#features)
@@ -26,10 +26,10 @@ Gina (previously named Lina, hence the name of the repo) is a locally hosted cha
 
 ## Installation
 1. Clone the repository:
-```git clone https://github.com/Decentricity/Lina-LocallyHostedChatbot-Blender.git(code block)
+```git clone https://github.com/Decentricity/Gina-LocallyHostedChatbot-Blender.git
 ```
 2. Install required packages using pip:
-```pip install -r requirements.txt(code block)
+```pip install -r requirements.txt
 ```
 3. Set your Telegram Bot Token in the `TELEGRAM_API_TOKEN` variable within the `main.py` script.
 
@@ -43,4 +43,7 @@ Gina (previously named Lina, hence the name of the repo) is a locally hosted cha
 
 4. Gina will reply with a voice message.
 
+5. Write "#toggle" to her to toggle to text and back to voice.
+
+6. Write a URL in your message for her to read the contents of the page.
 
