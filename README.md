@@ -26,16 +26,20 @@ Gina (previously named Lina) is a locally hosted chatbot based on the BlenderBot
 
 ## Installation
 1. Clone the repository:
-```git clone https://github.com/Decentricity/Gina-LocallyHostedChatbot-Blender.git
+```
+git clone https://github.com/Decentricity/Gina-LocallyHostedChatbot-Blender.git
 ```
 2. Install required packages using pip:
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 3. Set your Telegram Bot Token in the `TELEGRAM_API_TOKEN` variable within the `main.py` script.
 
 ## Usage
 1. Run the `main.py` script to start the chatbot:
-```python main.py```
+```
+python main.py
+```
 
 2. Find your chatbot on Telegram by searching for its username.
 
