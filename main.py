@@ -7,6 +7,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 from pydub import AudioSegment
 #New stuff for URL scraping:
 from bs4 import BeautifulSoup
+import speech_recognition
 import requests
 import re
 
